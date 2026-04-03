@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c586f2a1dd46e48fcd28a9ac878c25, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  workerSpeed: 25
+  predatorSpeed: 35
+  resourcesToSplitWorker: 2
+  workerSplitMutationChance: 0.1
+  minAliveBugsForMutation: 10
+  predatorLifetime: 10
+  mealsToSplitPredator: 3
+  maxResources: 20
+  resourceSpawnInterval: 0.25
+  spawnArea: {x: 20, y: 20}
+  initialWorkerCount: 1
+  resourcePrefab: {fileID: 3469306489817056640, guid: 035977a0ea422b443a04244115b61856, type: 3}
+  workerBugPrefab: {fileID: 3155128108725577818, guid: 208dbf5afc10ffa4caa8d6b4567e9659, type: 3}
+  predatorBugPrefab: {fileID: 2112817348375857198, guid: 48fa695c67169c1449755981bf6cfdf5, type: 3}
